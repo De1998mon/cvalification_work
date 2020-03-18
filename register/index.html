@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Пробничек регистрации</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="/register" method="post">
+        <h1 title="Форма регистрации">Регистрация</h1>
+        <div class="group">
+            <label for="">Имя пользоватея:</label>
+            <input name="u_name" type="text">
+        </div>
+        <div class="group">
+            <label for="">Пароль:</label>
+            <input name="u_password" type="password">
+        </div>
+        <div class="group">
+            <label for="">Пароль еще раз:</label>
+            <input name="u_password2" type="password">
+        </div>
+        <div class="group">
+            <label for="">Адрес электронной почты:</label>
+            <input name="u_mail" type="email">
+        </div>
+        <div>
+            <label> Сотрудник <input name="role" type="radio" value="worker"></label>
+            <label> Студент <input name="role" type="radio" value="student"></label>
+        </div>
+        <div class="group">
+            <center><input name="register" type="submit" value="Регистрация"></input></center>
+        </div>
+    </form>
+</body>
+</html>
